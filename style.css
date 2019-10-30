@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Maven+Pro&display=swap");
+.container {
+  display: flex;
+
+  flex-direction: column;
+}
+h2 {
+  color: aliceblue;
+  text-align: center;
+}
+body {
+  font-family: Maven Pro;
+  background-image: url(addressbook-pt2.jpg);
+  background-size: cover;
+}
+form {
+  align-self: center;
+  width: 800px;
+  border-radius: 5px;
+  background-color: rgba(179, 178, 176, 0.6);
+  padding-bottom: 60px;
+}
+input {
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 10px;
+  width: 650px;
+  margin-left: 60px;
+}
+label {
+  margin-left: 60px;
+}
+button {
+  border-radius: 5px;
+  background-color: #fff;
+  margin-top: 30px;
+  padding: 10px;
+  width: 675px;
+  margin-left: 60px;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.content div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+}
+.singleContact {
+  margin: 15px;
+  padding: 5px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.delete-button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(50%, 50%);
+  background-color: rgba(255, 255, 255, 0.8);
+}
